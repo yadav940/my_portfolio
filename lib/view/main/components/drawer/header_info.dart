@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../../../../res/constants.dart';
 
 class AreaInfoText extends StatelessWidget {

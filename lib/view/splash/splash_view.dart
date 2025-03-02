@@ -1,11 +1,9 @@
 import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/res/constants.dart';
 import 'package:my_portfolio/view/home/home.dart';
-import 'package:my_portfolio/view/intro/components/animated_texts_componenets.dart';
 import 'package:my_portfolio/view/splash/componenets/animated_loading_text.dart';
-
-import '../main/components/drawer/drawer_image.dart';
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
   @override

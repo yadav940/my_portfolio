@@ -1,8 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:my_portfolio/view%20model/getx_controllers/certification_controller.dart';
 import 'package:my_portfolio/view/projects/components/title_text.dart';
-import 'package:get/get.dart';
+
 import '../../res/constants.dart';
 import '../../view model/responsive.dart';
 import 'components/certification_grid.dart';

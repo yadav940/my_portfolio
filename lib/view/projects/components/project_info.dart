@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_portfolio/view/projects/components/project_deatail.dart';
 import 'package:get/get.dart';
+import 'package:my_portfolio/view/projects/components/project_deatail.dart';
+
 import '../../../model/project_model.dart';
 import '../../../res/constants.dart';
 import '../../../view model/getx_controllers/projects_controller.dart';
