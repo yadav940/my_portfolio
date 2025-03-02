@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_portfolio/view/projects/components/project_info.dart';
+import 'package:my_portfolio/view/projects/components/project_info.dart';
 import 'package:get/get.dart';
 import '../../../model/project_model.dart';
 import '../../../res/constants.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_portfolio/res/data.dart';
+import 'package:my_portfolio/res/data.dart';
 
 import '../../../view model/responsive.dart';
 

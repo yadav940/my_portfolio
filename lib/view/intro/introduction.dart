@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_portfolio/view%20model/responsive.dart';
-import 'package:flutter_portfolio/view/intro/components/intro_body.dart';
-import 'package:flutter_portfolio/view/intro/components/side_menu_button.dart';
-import 'package:flutter_portfolio/view/intro/components/social_media_list.dart';
+import 'package:my_portfolio/view%20model/responsive.dart';
+import 'package:my_portfolio/view/intro/components/intro_body.dart';
+import 'package:my_portfolio/view/intro/components/side_menu_button.dart';
+import 'package:my_portfolio/view/intro/components/social_media_list.dart';
 class Introduction extends StatelessWidget {
   const Introduction({super.key});
   @override

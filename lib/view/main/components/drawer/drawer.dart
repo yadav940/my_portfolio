@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_portfolio/view/main/components/drawer/contact_icons.dart';
-import 'package:flutter_portfolio/view/main/components/drawer/personal_info.dart';
+import 'package:my_portfolio/view/main/components/drawer/contact_icons.dart';
+import 'package:my_portfolio/view/main/components/drawer/personal_info.dart';
 import '../../../../res/constants.dart';
 import 'knowledges.dart';
 import 'about.dart';

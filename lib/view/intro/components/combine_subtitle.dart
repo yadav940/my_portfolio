@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_portfolio/view/intro/components/subtitle_text.dart';
+import 'package:my_portfolio/view/intro/components/subtitle_text.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import '../../../view model/responsive.dart';
 
