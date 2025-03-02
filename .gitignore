@@ -33,6 +33,7 @@ migrate_working_dir/
 .pub/
 /build/flutter_assets/
 /build/a28804fdd14f211bb9e001e356aa6eb4
+/Users/yuvapay/projectX/my_portfolio/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill
 
 # Symbolication related
 app.*.symbols
