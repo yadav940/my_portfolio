@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../res/constants.dart';
 import '../../../view model/responsive.dart';
+import '../../main/components/drawer/drawer_image.dart';
 
 class AnimatedImageContainer extends StatefulWidget {
   const AnimatedImageContainer({Key? key, this.height = 300, this.width = 250})
@@ -34,12 +35,12 @@ class AnimatedImageContainerState extends State<AnimatedImageContainer>
       builder: (context, child) {
         final value = _controller.value;
         return Transform.translate(
-          offset: Offset(0, 2 * value), // Move the container up and down
+          offset: Offset(0, 4 * value), // Move the container up and down
           child: Container(
             height: widget.height!,
             width: widget.width!,
             padding: const EdgeInsets.all(defaultPadding / 4),
-            decoration: BoxDecoration(
+            /*decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
               gradient: const LinearGradient(colors: [
                 Colors.pinkAccent,
@@ -57,8 +58,9 @@ class AnimatedImageContainerState extends State<AnimatedImageContainer>
                   blurRadius: 20,
                 ),
               ],
-            ),
-            child: Container(
+            ),*/
+            child: DrawerImage(),
+            /*child: Container(
               alignment: Alignment.center,
               decoration: BoxDecoration(
                 color: Colors.black,
@@ -78,7 +80,7 @@ class AnimatedImageContainerState extends State<AnimatedImageContainer>
                         : 200,
                 fit: BoxFit.cover,
               ),
-            ),
+            ),*/
           ),
         );
       },

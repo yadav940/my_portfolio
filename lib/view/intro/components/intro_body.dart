@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../../res/constants.dart';
 import '../../../view model/responsive.dart';
+import '../../main/components/drawer/drawer_image.dart';
 import 'animated_texts_componenets.dart';
 import 'combine_subtitle.dart';
 import 'description_text.dart';

@@ -10,18 +10,18 @@ class TopNavigationBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('data'),),
+      //appBar: AppBar(title: Text('data'),),
       body: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           const Spacer(),
           Padding(
             padding: const EdgeInsets.all(defaultPadding),
-            child:!Responsive.isLargeMobile(context)? Image.asset('assets/images/triange_icon.png') : MenuButton(onTap: () => Scaffold.of(context).openDrawer(),),
+            child: MenuButton(onTap: () => Scaffold.of(context).openDrawer(),),
           ),
           // if(Responsive.isLargeMobile(context)) MenuButton(),
           const Spacer(flex: 2,),
-          if(!Responsive.isLargeMobile(context))  const NavigationButtonList(),
+          //if(!Responsive.isLargeMobile(context))  const NavigationButtonList(),
           const Spacer(flex: 2,),
           const ConnectButton(),
           const Spacer(),
